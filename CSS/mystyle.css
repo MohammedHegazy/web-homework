@@ -1,0 +1,173 @@
+body{
+    background-color: rgba(173, 169, 169, 0.575);
+}
+*{
+    font-family: 'Trebuchet MS';
+}
+a{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+/*go to front ed development*/
+.page_end{
+    color: orangered;
+    border: solid steelblue;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: linear 0.5s;
+    background-color: unset;
+}
+.page_end:hover{
+    color: steelblue;
+    border: solid orangered;
+    font-size: 20px;
+    transition: linear 0.5s;
+}
+/*background*/
+.backgroundimage{
+    height: 845px;
+    width: auto;
+    position: fixed;
+    z-index: -3;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+/*headigs style*/
+.headings{
+    display: grid;
+    justify-content: center;
+    background-color: rgba(95, 158, 160, 0.603);
+    border-radius: 10px;
+}
+.headings:hover .heads{
+    font-size: 20px;
+    transition: linear 0.5s;
+}
+.headings .heads{
+    transition: linear 0.5s;
+}
+/*google logo style*/
+.glogo{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.googlelogo{
+    height: 200px;
+    width: auto;
+}
+/*table style*/
+.mytable{
+    display: flex;
+    justify-content: center;
+}
+.tablecap{
+    background-color: rgba(100, 148, 237, 0.74);
+}
+.rowone{
+    background-color: rgba(233, 150, 122, 0.753);
+    height: 60px;
+}
+.rowtwo{
+    background-color: rgba(255, 255, 255, 0.603);
+    height: 60px;
+}
+.description{
+    width: 1160px;
+}
+.example{
+    width: 200px;
+}
+.inptype{
+    width: 200px;
+}
+.numbers{
+    width: 50px;
+}
+.buttons{
+    border: ridge rgb(156, 156, 156);
+    background-color: rgba(150, 150, 150, 0.603);
+    border-radius: 5px;
+    height: 50px;
+    width: 160px;
+}
+.buttons:hover{
+    border: ridge royalblue;
+    color: royalblue;
+    transition: 0.3s;
+}
+.textstyle{
+    border-radius: 5px;
+    height: 20px;
+    width: 160px;
+    border: inset gray 2px;
+}
+.dropdownmenu{
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgba(128, 128, 128, 0.445);
+}
+/**unorder list style**/
+.ulstyle{
+    background-color: rgba(240, 255, 240, 0.466);
+    height: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.ulstyle .ulhead{
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 59, 187);
+}
+.ulstyle .ulcontent{
+    display: flex;
+    justify-content: center;
+}
+.listed-item{
+    padding-right: 30px;
+    list-style: none;
+}
+.listed-item::before{
+    content: "\2022";
+    color: red; 
+    padding-right: 5px;
+}
+/**front end developer photo**/
+.frontend_developer{
+    height: 200px;
+    float: right;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+/**logo**/
+.logo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    z-index: 6;
+}
+.logo_background{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 20px;
+    border-radius: 50%;
+    background-color: rgba(14, 44, 133, 0.699);
+    transform: rotateZ(140deg);
+    z-index: 5;
+}
